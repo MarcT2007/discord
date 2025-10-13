@@ -2,25 +2,26 @@
 <html>
 <head>
 	<title>Discord</title>
+	<link rel="icon" type="image/x-icon" href="discord-icon.svg">
 	<link rel="stylesheet" href="style .css">
 </head>
 <body>
-	<div>
-		<div>
-			<h1>Welcome back!</h1>
-			<h3>We're so exited to see you again!</h3>
+	<div class="bc">
+		<div id="logIn">
+			<h2>Welcome back!</h2>
+			<h4>We're so exited to see you again!</h4>
 			<label>Email or Phone Number<sup>*</sup></label><br/>
-			<input type="text" size="40"/>
-			<label>Password<sup>*</sup></label>
-			<input type="text" size="40"/>
-			<a href="">Forgot your password?</a>
+			<input type="text"/><br/>
+			<label>Password<sup>*</sup></label><br/>
+			<input type="text"/><br/>
+			<a href="">Forgot your password?</a><br/>
 			<input type="submit" value="Log In"/>
-			<p>Need an account?</p>
-			<a href="">Register</a>
+			<p>Need an account? <a href="">Register</a> </p>
 		</div>
-		<div>
-			<h1>Log in with QR Code</h1>
-			<h3>Scan this with the Discord mobile app to log in instantly.</h3>
+		<div id="qrKoda">
+			<img src="qr_koda.png"/>
+			<h2>Log in with QR Code</h2>
+			<h4>Scan this with the Discord mobile app to log in instantly.</h4>
 			<a href="">Or, sign in with passkeys</a>
 		</div>
 	</div>

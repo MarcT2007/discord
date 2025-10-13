@@ -11,11 +11,39 @@ body{
 }
 a{
 	text-decoration:none;
-	color:dark blue;
+	color:#00AFF4;
 }
-#divi{
-	display:inline;
+sup{
+	color:red;
+}
+input{
+	height:30px;
+	width:390px;
+	border-radius:10px;
+	background-color:gray;
+}
+input[type=submit]{
+	background-color:DodgerBlue;
+}
+label{
+	padding:10px;
+}
+img{
+	border-radius:10px;
 }
 .bc{
-	background-color:black;
+	background-color:#312e29;
+	border-radius:10px;
+	padding:30px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#logIn{
+	text-align:justify;
+	padding:40px;
+}
+#qrKoda{
+	text-align:center;
+	padding:40px;
 }
