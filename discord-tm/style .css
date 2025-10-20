@@ -4,6 +4,9 @@
 }
 body{
 	background-image: url('background.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size:cover;
 	color:white;
 	justify-items:center;
 	margin-top:100px;
@@ -31,6 +34,9 @@ label{
 img{
 	border-radius:10px;
 }
+span{
+	padding-top:30px;
+}
 .bc{
 	background-color:#312e29;
 	border-radius:10px;
@@ -38,10 +44,20 @@ img{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	margin:60px;
+	height:400px;
+	width:800px;
 }
 #logIn{
 	text-align:justify;
 	padding:40px;
+}
+#nas{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:30px;
+	
+	/*margin-top:-50px;*/
 }
 #qrKoda{
 	text-align:center;
