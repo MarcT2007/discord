@@ -34,9 +34,6 @@ label{
 img{
 	border-radius:10px;
 }
-span{
-	padding-top:30px;
-}
 .bc{
 	background-color:#312e29;
 	border-radius:10px;
@@ -50,12 +47,15 @@ span{
 }
 #logIn{
 	text-align:justify;
-	padding:40px;
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
 }
 #nas{
 	text-align:center;
-	padding-bottom:20px;
-	padding-top:30px;
+	padding-bottom:60px;
+	padding-top:1px;
 	
 	/*margin-top:-50px;*/
 }

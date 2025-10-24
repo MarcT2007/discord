@@ -1,0 +1,21 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-image: url('background.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size:cover;
+	color:white;
+	justify-items:center;
+	margin-top:100px;
+	padding:50px;
+}
+a{
+	text-decoration:none;
+	color:#00AFF4;
+}
+sup{
+	color:red;
+}
