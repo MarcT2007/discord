@@ -22,17 +22,22 @@ sup{
 input{
 	height:30px;
 	width:390px;
+	border:0.5px solid transparent;
 	border-radius:10px;
 	background-color:gray;
 }
 input[type=submit]{
-	background-color:DodgerBlue;
+	background-color:#5865F2;
+	border:0.5px solid transparent;
 }
 label{
 	padding:10px;
 }
 img{
 	border-radius:10px;
+}
+.premik{
+	margin-bottom:20px;
 }
 .bc{
 	background-color:#312e29;
@@ -56,8 +61,9 @@ img{
 	text-align:center;
 	padding-bottom:60px;
 	padding-top:1px;
-	
-	/*margin-top:-50px;*/
+}
+#obrazec{
+	margin-bottom:50px;
 }
 #qrKoda{
 	text-align:center;

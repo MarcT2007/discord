@@ -9,7 +9,7 @@ body{
 	background-size:cover;
 	color:white;
 	justify-items:center;
-	margin-top:100px;
+	margin-top:60px;
 	padding:50px;
 }
 a{
@@ -19,3 +19,80 @@ a{
 sup{
 	color:red;
 }
+label{
+	text-align:left;
+}
+h1{
+	text-align:center;
+}
+input{
+	height:30px;
+	width:390px;
+	border-radius:10px;
+	background-color:gray;
+	color:white;
+	border:0.5px solid transparent;
+}
+select{
+	height:30px;
+	width:130px;
+	border-radius:10px;
+	background-color:gray;
+	border:0.5px solid transparent;
+}
+input[type=submit]{
+	background-color:#5865F2;
+}
+p{
+	font-size:12px;
+}
+span{
+	
+}
+input[type=checkbox]{
+	align-items:left;
+}
+a{
+color: #5865F2;
+text-decoration: none;	
+}
+.bc{
+	background-color:#312e29;
+	border-radius:10px;
+	padding:30px;
+	display:block;
+	justify-content:center;
+	align-items:center;
+	margin:60px;
+	height:500px;
+	width:400px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-top: 10px; /* Da se zgoraj poravna z besedilom */
+  width: 20px;
+  height: 20px;
+  border:0.5px solid transparent;
+  border-radius:10px;
+}
+
+.checkbox-container label {
+  color: #b3b6ba;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  font-weight: 400;
+  user-select: none;
+}
+
+.checkbox-container a {
+  color: #5865F2;
+  text-decoration: none;
+}
+
