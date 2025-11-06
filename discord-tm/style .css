@@ -69,3 +69,20 @@ img{
 	text-align:center;
 	padding:40px;
 }
+#password{
+	width: 360px; 
+	height: 30px; 
+	border-radius: 10px; 
+	padding-right: 30px; 
+	background-color: gray; 
+	border: 0.5px solid transparent; 
+	color: white;
+}
+#togglePassword{
+	position: absolute; 
+	right: 10px; 
+	top: 5px; 
+	cursor: pointer; 
+	user-select: none; 
+	color: white;
+}

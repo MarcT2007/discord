@@ -4,6 +4,7 @@
 	<title>Discord</title>
 	<link rel="icon" type="image/x-icon" href="discord-icon.svg">
 	<link rel="stylesheet" href="style .css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 	<div class="bc">
@@ -12,14 +13,20 @@
 				<h1>Welcome back!</h1>
 				<h3>We're so exited to see you again!</h3>
 			</div>
-			<div id="obrazec">
-				<label>Email or Phone Number<sup>*</sup></label><br/>
-				<input type="text"/><br/>
-				<label>Password<sup>*</sup></label><br/>
-				<input type="password"/><br/>
-				<a href="">Forgot your password?</a><br/>
-			</div>
-			<input type="submit" value="Log In"/>
+			<form action="" method="post">
+				<div id="obrazec">
+					<label>Email or Phone Number<sup>*</sup></label><br/>
+					<input type="text"/><br/>
+					<label for="password">Geslo</label>
+					<div style="position: relative; width: 390px;">
+						<input type="password" id="password"/>
+						<span id="togglePassword"/>👁️</span>
+					</div>
+					<br/>
+					<a href="">Forgot your password?</a><br/>
+				</div>
+				<input type="submit" value="Log In"/>
+			</form>
 			<p>Need an account? <a href="registration.html">Register</a> </p>
 		</div>
 		<div id="qrKoda">
@@ -29,5 +36,6 @@
 			<a href="">Or, sign in with passkeys</a>
 		</div>
 	</div>
+	<script src="code1.js" defer></script>
 </body>
 </html>
