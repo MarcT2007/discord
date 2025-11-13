@@ -3,6 +3,10 @@ const updatesCheckbox = document.getElementById('updates');
 const submitButton = document.getElementById('submitBtn');
 const passwordInput = document.getElementById('password');
 const togglePassword = document.getElementById('togglePassword');
+const usernameInput = document.getElementById('username');
+const helpText = document.getElementById('usernameHelp');
+
+
 
 togglePassword.addEventListener('click', function () {
   const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
@@ -22,6 +26,14 @@ updatesCheckbox.addEventListener('change', toggleSubmitButton);
 // Inicializiraj stanje ob naložitvi strani
 toggleSubmitButton();
 
+usernameInput.addEventListener('focus', () => {
+    helpText.style.display = 'block'; // pokaže pomoč ob kliku v polje
+  });
+  
+usernameInput.addEventListener('blur', () => {
+    helpText.style.display = 'none'; // skrije pomoč, ko polje zapustiš
+  });
+  
 document.querySelector('form').addEventListener('submit', function(e) {
     let email = document.querySelector('input[type="email"]');
     let password = document.querySelector('input[type="password"]');

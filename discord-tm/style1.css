@@ -123,4 +123,9 @@ input[type="submit"]:disabled {
 	user-select: none; 
 	color: white;
 }
+#usernameHelp{
+	color: gray; 
+	font-size: 0.7em; 
+	display: none;
+}
 

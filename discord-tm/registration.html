@@ -14,8 +14,11 @@
 			<input type="email"/><br/>
 			<label>Display name</label><br/>
 			<input type="text"/><br/>
-			<label>Username<sup>*</sup></label><br/>
-			<input type="text"/><br/>
+			<label for="username">Username<sup>*</sup></label><br/>
+			<input type="text" id="username" pattern="[a-zA-Z0-9]+" required />
+			<div id="usernameHelp">
+				Uporabniško ime sme vsebovati samo latinične črke in številke, brez šumnikov.
+			</div>
 			<label for="password">Geslo<sup>*</sup></label>
 			<div style="position: relative; width: 390px;">
 				<input type="password" id="password"/>
