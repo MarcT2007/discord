@@ -7,27 +7,24 @@ const togglePassword = document.getElementById('togglePassword');
 togglePassword.addEventListener('click', function () {
   const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
   passwordInput.setAttribute('type', type);
-
-  // Še lahko spremeniš ikono očesa glede na stanje:
   this.textContent = type === 'password' ? '👁️' : '🙈';
 });
 
-
-// Funkcija za preverjanje, če sta checkboxa označena
+// Funkcija za preverjanje, če sta checkboxa označena in onemogoči ali omogoči gumb
 function toggleSubmitButton() {
   submitButton.disabled = !(termsCheckbox.checked && updatesCheckbox.checked);
 }
 
-// Poslušaj spremembe na obeh checkboxih
+// Poslušaj spremembe na checkboxih
 termsCheckbox.addEventListener('change', toggleSubmitButton);
 updatesCheckbox.addEventListener('change', toggleSubmitButton);
 
-// Iniciraj stanje ob naložitvi strani
+// Inicializiraj stanje ob naložitvi strani
 toggleSubmitButton();
 
 document.querySelector('form').addEventListener('submit', function(e) {
     let email = document.querySelector('input[type="email"]');
-    let password = document.querySelector('input[type="password"]:nth-of-type(3)');
+    let password = document.querySelector('input[type="password"]');
     let day = document.querySelector('select:nth-of-type(1)');
     let month = document.querySelector('select:nth-of-type(2)');
     let year = document.querySelector('select:nth-of-type(3)');
@@ -47,15 +44,16 @@ document.querySelector('form').addEventListener('submit', function(e) {
         Swal.fire({
             icon: 'error',
             title: 'Napaka',
-            text: 'Izpolnite vsa zahtevana polja.'
+            text: 'Izpolnite vsa zahtevana polja in potrdite pogoje.'
         });
     } else {
-        e.preventDefault(); // če želiš res poslati podatke, odstrani to vrstico
+        e.preventDefault(); // Prepreči privzeto obnašanje (osvežitev)
         Swal.fire({
             icon: 'success',
             title: 'Uspeh!',
-            text: 'Uspesno ste registrirani!'
+            text: 'Uspešno ste registrirani!'
         }).then(() => {
+            // Po potrditvi sporočila preusmeri na index.html
             window.location.href = 'index.html';
         });
     }
