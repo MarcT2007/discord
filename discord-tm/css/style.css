@@ -1,0 +1,89 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-image: url('../picture/background.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size:cover;
+	color:white;
+	justify-items:center;
+	margin-top:100px;
+	padding:50px;
+	font-family:
+}
+a{
+	text-decoration:none;
+	color:#00AFF4;
+}
+sup{
+	color:red;
+}
+input{
+	height:30px;
+	width:390px;
+	border:0.5px solid transparent;
+	border-radius:5px;
+	background-color:gray;
+}
+input[type=submit]{
+	background-color:#5865F2;
+	border:0.5px solid transparent;
+}
+label{
+	padding:10px;
+}
+img{
+	border-radius:5px;
+}
+.premik{
+	margin-bottom:20px;
+}
+.bc{
+	background-color:#312e29;
+	border-radius:10px;
+	padding:30px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:60px;
+	height:400px;
+	width:800px;
+}
+#logIn{
+	text-align:justify;
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+}
+#nas{
+	text-align:center;
+	padding-bottom:60px;
+	padding-top:1px;
+}
+#obrazec{
+	margin-bottom:50px;
+}
+#qrKoda{
+	text-align:center;
+	padding:40px;
+}
+#password{
+	width: 360px; 
+	height: 30px; 
+	border-radius: 5px; 
+	padding-right: 30px; 
+	background-color: gray; 
+	border: 0.5px solid transparent; 
+	color: white;
+}
+#togglePassword{
+	position: absolute; 
+	right: 10px; 
+	top: 5px; 
+	cursor: pointer; 
+	user-select: none; 
+	color: white;
+}
