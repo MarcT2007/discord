@@ -30,14 +30,17 @@ document.querySelector('form').addEventListener('submit', function(e) {
         Swal.fire({
             icon: 'error',
             title: 'Napaka',
-            text: 'Prosimo, vnesite uporabniško ime in geslo.'
+            text: 'Prosimo, vnesite uporabniško ime in geslo.',
+			confirmButtonColor: '#5865F2', // vpiši željeno barvo (hex, rgb ali ime barve)
+			iconColor: 'red', // Vpiši željeno barvo (hex, rgb ali ime barve)
         });
     } else {
         e.preventDefault(); // odstranite ta preventDefault, če želite, da se form dejansko odda
         Swal.fire({
             icon: 'success',
             title: 'Uspeh!',
-            text: 'Prijava uspešna!'
+            text: 'Prijava uspešna!',
+			confirmButtonColor: '#5865F2' // vpiši željeno barvo (hex, rgb ali ime barve)
         }).then(() => {
 			// Poišči obrazec
 			const form = document.querySelector('form');
