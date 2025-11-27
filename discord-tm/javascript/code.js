@@ -48,13 +48,13 @@ birthYearSelect.addEventListener('change', updateDays);
 monthSelect.addEventListener('change', updateDays);
 updateDays();
 
-togglePassword.addEventListener('click', function () {
+/*togglePassword.addEventListener('click', function () {
   const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
   passwordInput.setAttribute('type', type);
   this.innerHTML = type === 'password'
     ? '<img src="../picture/view.png" alt="Show password">'
     : '<img src="../picture/hide.png" alt="Hide password">';
-});
+});*/
 
 function toggleSubmitButton() {
   submitButton.disabled = !(termsCheckbox.checked && updatesCheckbox.checked);
