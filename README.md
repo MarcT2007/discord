@@ -6,7 +6,7 @@ The Account Creation Page lets new users register by entering basic details such
 Both pages are lightweight, responsive, and enhanced with JavaScript for dynamic behavior.
 
 
-## 📂 Pages Included
+##  Pages Included
 - Login Page
 
 - Email/phone input
@@ -49,7 +49,7 @@ Both pages are lightweight, responsive, and enhanced with JavaScript for dynamic
 
 - Uses code.js for form validation and dropdown behavior
 
-## 📝 General Notes
+##  General Notes
 
 - Both pages follow a simple, responsive layout focused on user experience.
 
