@@ -6,55 +6,53 @@ The Account Creation Page lets new users register by entering basic details such
 Both pages are lightweight, responsive, and enhanced with JavaScript for dynamic behavior.
 
 
-📂 Pages Included
-1. Login Page
+## 📂 Pages Included
+- 1. Login Page
 
-Email/phone input
+- Email/phone input
 
-Password input with visibility toggle
+- Password input with visibility toggle
 
-“Forgot password?” link
+- “Forgot password?” link
 
-QR code login option
+- QR code login option
 
-Login button
+- Login button
 
-Link to create a new account
+- Link to create a new account
 
-Uses code1.js for interactions
+- Uses code1.js for interactions
 
-2. Account Creation Page
+- 2. Account Creation Page
 
-Fields for:
+- Fields for:
 
-Email
+- Email
 
-Display name
+- Display name
 
-Username
+- Username
 
-Password
+- Password
 
-Date of birth
+- Date of birth
 
-Required agreement to:
+- Required agreement to:
 
-Terms of Service
+- Terms of Service
 
-Privacy Policy
+- Optional email updates subscription
 
-Optional email updates subscription
+- “Create Account” button
 
-“Create Account” button
+- Link back to login page
 
-Link back to login page
+- Uses code.js for form validation and dropdown behavior
 
-Uses code.js for form validation and dropdown behavior
+## 📝 General Notes
 
-📝 General Notes
+- Both pages follow a simple, responsive layout focused on user experience.
 
-Both pages follow a simple, responsive layout focused on user experience.
+- SweetAlert2 is included for future use but not yet implemented.
 
-SweetAlert2 is included for future use but not yet implemented.
-
-Pages can be easily expanded with backend authentication or API integration.
+- Pages can be easily expanded with backend authentication or API integration.
