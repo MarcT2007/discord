@@ -7,7 +7,7 @@ Both pages are lightweight, responsive, and enhanced with JavaScript for dynamic
 
 
 ## 📂 Pages Included
-- 1. Login Page
+- Login Page
 
 - Email/phone input
 
