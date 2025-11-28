@@ -4,6 +4,8 @@ These pages provide a simple, user-friendly authentication flow similar to Disco
 The Login Page allows users to sign in using email/phone and password, with helpful options like password visibility toggling, password recovery, and QR login.
 The Account Creation Page lets new users register by entering basic details such as email, username, password, and date of birth, along with agreeing to required terms.
 Both pages are lightweight, responsive, and enhanced with JavaScript for dynamic behavior.
+
+
 📂 Pages Included
 1. Login Page
 
