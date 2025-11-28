@@ -1,13 +1,58 @@
 # Discord
 
-1.Login Page
+These pages provide a simple, user-friendly authentication flow similar to Discord.
+The Login Page allows users to sign in using email/phone and password, with helpful options like password visibility toggling, password recovery, and QR login.
+The Account Creation Page lets new users register by entering basic details such as email, username, password, and date of birth, along with agreeing to required terms.
+Both pages are lightweight, responsive, and enhanced with JavaScript for dynamic behavior.
+📂 Pages Included
+1. Login Page
 
-The login page allows returning users to sign in to their Discord account. It features a clean layout with a welcome message and a login form that includes fields for email/phone number and password. A password visibility toggle is provided. There’s also a link for users who have forgotten their password, and an alternative option to log in via QR code. A submit button is included, and users can navigate to the registration page if they don’t have an account. A JavaScript file (code1.js) is linked to enable functionality like password visibility.
+Email/phone input
 
-2.Account Creation Page
+Password input with visibility toggle
 
-The account creation page allows new users to sign up for Discord. It includes fields for email, display name, username, password, and date of birth. Users must agree to the Terms of Service and Privacy Policy and can opt-in to receive email updates. A submit button creates the account, and a link is provided for users to log in if they already have an account. JavaScript (code.js) handles form validation and dynamic dropdowns.
+“Forgot password?” link
 
-3.General Notes
+QR code login option
 
-Both pages are simple and responsive, focusing on essential features for a seamless user experience. They include external resources like SweetAlert2 for pop-up notifications, though it’s not actively used in the provided code.
+Login button
+
+Link to create a new account
+
+Uses code1.js for interactions
+
+2. Account Creation Page
+
+Fields for:
+
+Email
+
+Display name
+
+Username
+
+Password
+
+Date of birth
+
+Required agreement to:
+
+Terms of Service
+
+Privacy Policy
+
+Optional email updates subscription
+
+“Create Account” button
+
+Link back to login page
+
+Uses code.js for form validation and dropdown behavior
+
+📝 General Notes
+
+Both pages follow a simple, responsive layout focused on user experience.
+
+SweetAlert2 is included for future use but not yet implemented.
+
+Pages can be easily expanded with backend authentication or API integration.
