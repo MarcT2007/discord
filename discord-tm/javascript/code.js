@@ -102,7 +102,8 @@ document.querySelector('form').addEventListener('submit', function(e) {
       text: 'You have successfully registered!',
 	  confirmButtonColor: '#5865F2' // vpiši željeno barvo (hex, rgb ali ime barve)
     }).then(() => {
-      window.location.href = 'index.html';
+      window.location.href = '../index.html';
     });
   }
 });
+
