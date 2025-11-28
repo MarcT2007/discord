@@ -23,7 +23,7 @@ Both pages are lightweight, responsive, and enhanced with JavaScript for dynamic
 
 - Uses code1.js for interactions
 
-- 2. Account Creation Page
+- Account Creation Page
 
 - Fields for:
 
