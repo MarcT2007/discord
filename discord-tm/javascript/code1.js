@@ -20,8 +20,8 @@ document.querySelector('form').addEventListener('submit', function(e) {
     e.preventDefault();
     Swal.fire({
         icon: 'error',
-        title: 'Napaka',
-        text: 'Prosim, vnesite veljaven elektronski naslov ali telefonsko številko.'
+        title: 'Error',
+        text: 'Please check!'
     });
 		return;
 	}
@@ -29,8 +29,8 @@ document.querySelector('form').addEventListener('submit', function(e) {
         e.preventDefault();
         Swal.fire({
             icon: 'error',
-            title: 'Napaka',
-            text: 'Prosimo, vnesite uporabniško ime in geslo.',
+            title: 'Error',
+            text: 'Please enter password and username.',
 			confirmButtonColor: '#5865F2', // vpiši željeno barvo (hex, rgb ali ime barve)
 			iconColor: 'red', // Vpiši željeno barvo (hex, rgb ali ime barve)
         });
@@ -38,8 +38,8 @@ document.querySelector('form').addEventListener('submit', function(e) {
         e.preventDefault(); // odstranite ta preventDefault, če želite, da se form dejansko odda
         Swal.fire({
             icon: 'success',
-            title: 'Uspeh!',
-            text: 'Prijava uspešna!',
+            title: 'Success!',
+            text: 'LogIn successfully!',
 			confirmButtonColor: '#5865F2' // vpiši željeno barvo (hex, rgb ali ime barve)
         }).then(() => {
 			// Poišči obrazec
@@ -50,3 +50,4 @@ document.querySelector('form').addEventListener('submit', function(e) {
 		});
     }
 });
+
