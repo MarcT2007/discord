@@ -5,7 +5,7 @@ The Login Page allows users to sign in using email/phone and password, with help
 The Account Creation Page lets new users register by entering basic details such as email, username, password, and date of birth, along with agreeing to required terms.
 Both pages are lightweight, responsive, and enhanced with JavaScript for dynamic behavior.
 
-![alt text]()
+![alt text](picture/discord.png)
 
 
 ##  Pages Included
