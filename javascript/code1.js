@@ -2,6 +2,8 @@ const passwordInput = document.getElementById('password');
 const togglePassword = document.getElementById('togglePassword');
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;  // Regex za preverjanje e-pošte
 const phoneRegex = /^\+?\d{7,15}$/;                // Enostaven regex za telefon
+const recordsToggle = document.getElementById('recordsToggle');
+const recordsBox = document.getElementById('recordsBox');
 
 /*togglePassword.addEventListener('click', function () {
   const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
@@ -15,6 +17,17 @@ document.querySelector('form').addEventListener('submit', function(e) {
 	const identifier = document.querySelector('input[type="text"]');
     let username = document.querySelector('input[type="text"]');
     let password = document.querySelector('input[type="password"]');
+	
+	recordsToggle.addEventListener('click', () => {
+    recordsBox.classList.toggle('prikazano');
+    recordsBox.classList.toggle('skrito');
+		
+	if (recordsBox.classList.contains('prikazano')) {
+        recordsToggle.textContent = "Skrij records ▲";
+    } else {
+        recordsToggle.textContent = "Pokaži records ▼";
+    }
+});
 	
 	if (!(emailRegex.test(identifier.value) || phoneRegex.test(identifier.value))) {
     e.preventDefault();
@@ -53,6 +66,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
 });
     }
 });
+
 
 
 
