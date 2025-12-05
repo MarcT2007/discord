@@ -130,3 +130,21 @@ img{
 .pika-bg:hover + .credits-bg {
   display: block;
 }
+        Styles za records toggle */
+        .klikni {
+            cursor: pointer;
+            color: #5865F2;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .skrito {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .prikazano {
+            max-height: 500px;
+        }
+
