@@ -58,3 +58,8 @@ Both pages are lightweight, responsive, and enhanced with JavaScript for dynamic
 - SweetAlert2 is included for future use but not yet implemented.
 
 - Pages can be easily expanded with backend authentication or API integration.
+
+ ##  Successful log in
+ - user: teja.marc@tscng.org
+ - password: sola12
+ 
