@@ -1,4 +1,4 @@
-# <div style="text-align:center;">Copy of Discord</div>
+ <div align=center><h1></h1>Copy of Discord</div>h1></div>
 
 These pages provide a simple, user-friendly authentication flow similar to Discord.
 The Login Page allows users to sign in using email/phone and password, with helpful options like password visibility toggling, password recovery, and QR login.
