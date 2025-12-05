@@ -1,5 +1,5 @@
 <div style="margin: auto">
-  #Copy of Discord
+  # Copy of Discord
 <div>
 
 These pages provide a simple, user-friendly authentication flow similar to Discord.
