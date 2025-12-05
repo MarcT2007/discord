@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Discord</title>
-	<link rel="icon" type="image/x-icon" href="picture/discord-icon.svg">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <meta charset="UTF-8">
+    <title>Discord</title>
+    <link rel="icon" type="image/x-icon" href="picture/discord-icon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-	<span class="pika-bg"></span>
-	<span class="credits-bg">Teja Marc</span>
-	<div class="bc">
-		<div id="logIn">
-			<div id="nas">
-				<h1>Welcome back!</h1>
-				<h3>We're so exited to see you again!</h3>
-			</div>
-			<form action="" method="post">
-				<div id="obrazec">
-					<label>Email or Phone Number<sup>*</sup></label><br/>
-					<input type="text"/><br/>
-					<label for="password">Geslo<sup>*</sup></label>
-					<div style="position: relative; width: 390px;">
-						<input type="password" id="password"/>
-						<span id="togglePassword"></span>
-					</div>
-					<br/>
-					<a href="">Forgot your password?</a><br/>
-				</div>
-				<input type="submit" value="Log In"/>
-			</form>
-			<p>Need an account? <a href="html/registration.html">Register</a> </p>
-		</div>
-		<div id="qrKoda">
-			<img src="picture/qr_koda.png"/>
-			<h2>Log in with QR Code</h2>
-			<h4>Scan this with the Discord mobile app to log in instantly.</h4>
-			<a href="">Or, sign in with passkeys</a>
-		</div>
-	</div>
-	<script src="javascript/code1.js" defer></script>
+    <span class="pika-bg"></span>
+    <span class="credits-bg">Teja Marc</span>
+    <div class="bc">
+        <div id="logIn">
+            <div id="nas">
+                <h1>Welcome back!</h1>
+                <h3>We're so excited to see you again!</h3>
+            </div>
+            <form action="" method="post">
+                <div id="obrazec">
+                    <label>Email or Phone Number<sup>*</sup></label><br/>
+                    <input type="text"/><br/>
+                    <label for="password">Geslo<sup>*</sup></label>
+                    <div style="position: relative; width: 390px;">
+                        <input type="password" id="password"/>
+                        <span id="togglePassword"></span>
+                    </div>
+                    <br/>
+                    <a href="">Forgot your password?</a><br/>
+                </div>
+                <input type="submit" value="Log In"/>
+            </form>
+            <p>Need an account? <a href="html/registration.html">Register</a> </p>
+
+            <!-- RECORDS toggle -->
+            <h3 id="recordsToggle" class="klikni">Pokaži records </h3>
+            <div id="recordsBox" class="skrito">
+                <p>Record 1</p>
+                <p>Record 2</p>
+                <p>Record 3</p>
+            </div>
+        </div>
+
+        <div id="qrKoda">
+            <img src="picture/qr_koda.png"/>
+            <h2>Log in with QR Code</h2>
+            <h4>Scan this with the Discord mobile app to log in instantly.</h4>
+            <a href="">Or, sign in with passkeys</a>
+        </div>
+    </div>
+
+    <script src="javascript/code1.js" defer></script>
 </body>
-
 </html>
-
-
-
-
