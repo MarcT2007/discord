@@ -41,6 +41,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
             title: 'Success!',
             text: 'LogIn successfully!',
 			confirmButtonColor: '#5865F2' // vpiši željeno barvo (hex, rgb ali ime barve)
+			window.location.href = 'https://discord.com/';
         }).then(() => {
 			// Poišči obrazec
 			const form = document.querySelector('form');
@@ -50,4 +51,5 @@ document.querySelector('form').addEventListener('submit', function(e) {
 		});
     }
 });
+
 
