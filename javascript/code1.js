@@ -12,13 +12,7 @@ const recordsBox = document.getElementById('recordsBox');
   // Še lahko spremeniš ikono očesa glede na stanje:
   this.textContent = type === 'password' ? '\u{1D110}' : '\u{1D111}';
 });*/
-
-document.querySelector('form').addEventListener('submit', function(e) {
-	const identifier = document.querySelector('input[type="text"]');
-    let username = document.querySelector('input[type="text"]');
-    let password = document.querySelector('input[type="password"]');
-	
-	recordsToggle.addEventListener('click', () => {
+recordsToggle.addEventListener('click', () => {
     recordsBox.classList.toggle('prikazano');
     recordsBox.classList.toggle('skrito');
 		
@@ -28,6 +22,11 @@ document.querySelector('form').addEventListener('submit', function(e) {
         recordsToggle.textContent = "Pokaži records ▼";
     }
 });
+
+document.querySelector('form').addEventListener('submit', function(e) {
+	const identifier = document.querySelector('input[type="text"]');
+    let username = document.querySelector('input[type="text"]');
+    let password = document.querySelector('input[type="password"]');
 	
 	if (!(emailRegex.test(identifier.value) || phoneRegex.test(identifier.value))) {
     e.preventDefault();
@@ -66,6 +65,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
 });
     }
 });
+
 
 
 
