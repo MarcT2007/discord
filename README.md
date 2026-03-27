@@ -1,65 +1,30 @@
- <div align=center><h1>Copy of Discord</h1></div>
+https://worksheets.theteacherscorner.net/make-your-own/maze/
+# Animacija Spuzija
 
-These pages provide a simple, user-friendly authentication flow similar to Discord.
-The Login Page allows users to sign in using email/phone and password, with helpful options like password visibility toggling, password recovery, and QR login.
-The Account Creation Page lets new users register by entering basic details such as email, username, password, and date of birth, along with agreeing to required terms.
-Both pages are lightweight, responsive, and enhanced with JavaScript for dynamic behavior.
+Preprosta spletna animacija, kjer dva lika – **Gary** in **Spuži** – hodita po labirintu in dosežeta cilj, ob prikazu končne animacije.
 
-![alt text](picture/discord.png)
+## Funkcionalnosti
 
+- **Gary**: glavni lik, se premika po prednastavljeni poti.  
+- **Spuzi**: spremljevalni lik, ki sledi Garyju.  
+- **Labirint**: ozadje strani, preko katerega se liki premikajo.  
+- **Overlay končne slike**: ko oba lika dosežeta cilj, se prikaže animacija `konec.gif` z gladkim fade efektom.  
+- **Canvas**: pripravljen za risanje labirinta ali dodatnih elementov (trenutno v ozadju).  
 
-##  Pages Included
-- Login Page
+## Tehnologije
 
-- Email/phone input
+- HTML5  
+- CSS3  
+- JavaScript  
 
-- Password input with visibility toggle
+## Kako deluje
 
-- “Forgot password?” link
+1. Gary se premika po nizu koordinat (`path`) s konstantno hitrostjo.  
+2. Spuzi sledi Garyju, a nekoliko zaostaja, kar ustvarja učinek "sledilca".  
+3. Ko oba dosežeta konec poti, se prikaže overlay z animacijo konca igre.  
 
-- QR code login option
+## Navodila
 
-- Login button
-
-- Link to create a new account
-
-- Uses code1.js for interactions
-
-## Account Creation Page
-
-- Fields for:
-
-- Email
-
-- Display name
-
-- Username
-
-- Password
-
-- Date of birth
-
-- Required agreement to:
-
-- Terms of Service
-
-- Optional email updates subscription
-
-- “Create Account” button
-
-- Link back to login page
-
-- Uses code.js for form validation and dropdown behavior
-
-##  General Notes
-
-- Both pages follow a simple, responsive layout focused on user experience.
-
-- SweetAlert2 is included for future use but not yet implemented.
-
-- Pages can be easily expanded with backend authentication or API integration.
-
- ##  Successful log in
- - user: teja.marc@tscng.org
- - password: sola12
- 
+1. Odpri `index.html` v brskalniku.  
+2. Animacija se samodejno zažene ob nalaganju strani.  
+3. Opazuj, kako Gary vodi Spuzija po labirintu do konca.
