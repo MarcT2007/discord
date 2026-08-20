@@ -1,0 +1,132 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-image: url('../picture/background.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size:cover;
+	color:white;
+	justify-items:center;
+	margin-top:100px;
+	padding:50px;
+	font-family:
+}
+a{
+	text-decoration:none;
+	color:#00AFF4;
+}
+sup{
+	color:red;
+}
+input{
+	height:30px;
+	width:390px;
+	border:0.5px solid transparent;
+	border-radius:5px;
+	background-color:gray;
+}
+input[type=submit]{
+	background-color:#5865F2;
+	border:0.5px solid transparent;
+	margin-bottom:10px;
+}
+img{
+	border-radius:5px;
+}
+.premik{
+	margin-bottom:20px;
+}
+.bc{
+	background-color:#312e29;
+	border-radius:10px;
+	padding:30px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:60px;
+	height:400px;
+	width:800px;
+}
+#logIn{
+	text-align:justify;
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+}
+#nas{
+	text-align:center;
+	padding-bottom:50px;
+	padding-top:1px;
+	margin-bottom:10px;
+}
+#nas h1 {
+  margin-bottom: 20px; /* poveča razmik po prvem naslovu */
+}
+#nas h3 {
+  margin-top: 0;
+}
+#obrazec{
+	margin-bottom:50px;
+	align-items:left;
+}
+#obrazec input[type=text]{
+	margin-bottom: 20px;
+}
+#qrKoda{
+	text-align:center;
+	padding:40px;
+}
+#qrKoda img{
+	margin-bottom:20px;
+}
+#qrKoda h4{
+	margin-bottom:20px;
+}
+#password{
+	width: 360px; 
+	height: 30px; 
+	border-radius: 5px; 
+	padding-right: 30px; 
+	background-color: gray; 
+	border: 0.5px solid transparent; 
+	color: white;
+}
+#togglePassword{
+	position: absolute; 
+	right: 10px; 
+	top: 5px; 
+	cursor: pointer; 
+	user-select: none; 
+	color: white;
+}
+.pika-bg {
+  position: absolute;
+  top: 45px;    /* natančno na mesto pike – popravljaš glede na svojo sliko/ozadje! */
+  left: 115px;  /* natančno na mesto pike */
+  width: 18px;  /* velikost ciljne točke (lahko manjša ali večja) */
+  height: 18px;
+  cursor: pointer;
+  z-index: 20;
+  background: rgba(255,255,255,0.01); /* neviden, a lažje klikljiv */
+}
+
+.credits-bg {
+  position: absolute;
+  top: 45px;
+  left: 110px;
+  color: white;
+  background: rgba(0,0,0,0.6);
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  z-index: 30;
+  display: none;      /* najprej skrit! */
+  pointer-events: none;
+}
+
+.pika-bg:hover + .credits-bg {
+  display: block;
+}
